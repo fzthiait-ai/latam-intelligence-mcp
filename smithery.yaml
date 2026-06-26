@@ -1,0 +1,12 @@
+version: 1
+name: latam-intelligence
+description: Latin America business intelligence and compliance tools. Look up Brazilian companies (CNPJ), postal codes, exchange rates, Argentine economic indicators, and validate tax IDs for Brazil, Mexico, Argentina and Peru. No API key required.
+runtime: python
+entry: server.py
+build:
+  install: pip install -r requirements.txt
+startCommand:
+  type: http
+  command: python
+  args:
+    - server.py
