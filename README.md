@@ -63,3 +63,14 @@ Latin America business intelligence, compliance tools, and economic data for AI 
 - **Banco Central do Brasil** (`olinda.bcb.gov.br`) — Official Brazilian central bank open data API.
 - **datos.gob.ar** (`apis.datos.gob.ar`) — Official Argentine government open data platform. Licensed under Creative Commons.
 - Tax ID validation is purely algorithmic (no external API calls).
+
+---
+## Install & Access
+**Smithery** — works with Claude, Cursor, Windsurf, and all MCP clients:
+```bash
+npx -y @smithery/cli install @fzth-ia-it/latam-intelligence-mcp --client claude
+```
+[![Smithery](https://smithery.ai/badge/@fzth-ia-it/latam-intelligence-mcp)](https://smithery.ai/server/@fzth-ia-it/latam-intelligence-mcp)
+
+**MCPize** — hosted, managed access with Free / PRO / ULTRA tiers:  
+[mcpize.com](https://mcpize.com) → search `LATAM Intelligence MCP`
